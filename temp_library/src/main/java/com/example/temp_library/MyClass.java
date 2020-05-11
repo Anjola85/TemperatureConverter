@@ -1,9 +1,9 @@
-package com.example.temperature;
+package com.example.temp_library;
 
-public class TempModel {
+public class MyClass {
     private double tempEntry;
 
-    public TempModel(String t) { this.tempEntry = Double.parseDouble(t); }
+    public MyClass(String t) { this.tempEntry = Double.parseDouble(t); }
 
     public String celsius() {
         double t = this.tempEntry;
@@ -20,8 +20,8 @@ public class TempModel {
     }
 
     public static void main(String[] args) {
-//        TempModel myModel = new TempModel("76");
-        System.out.println("This is code");
-//        System.out.println(myModel.celsius());
+        MyClass myModel = new MyClass("76");
+//        System.out.println("This is code");
+        System.out.println(myModel.celsius());
     }
 }

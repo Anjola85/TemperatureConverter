@@ -1,2 +1,3 @@
 rootProject.name='Temperature'
 include ':app'
+include ':temp_library'
